@@ -1,0 +1,50 @@
+body{
+    background-color: darkolivegreen;
+    color: white;
+}
+
+li a {
+    background-color: aliceblue;
+    color: darksalmon;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a:hover {
+    background-color: gold;
+    color: aqua;
+}
+
+img{
+    width:250px;
+    height:250px;
+    display:inline-block;
+    float: left;
+}
+
+p{
+    align-items: center;
+    padding-left: 20px;
+}
+
+#pic{
+    display:inline-block;
+    padding-left: 125px;
+}
+
+
+#info{
+    display: inline-block;
+    padding-left: 50px;
+    vertical-align: top;
+}
